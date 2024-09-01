@@ -3,8 +3,9 @@ body { padding: 0; margin: 0; overflow: hidden; }
 #title-screen { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100vw; height: 102vh; background-color: black; background-image: url("Images/TitleImage.png"); background-size: 2000px; background-position: 100%; background-position-y: 40%; z-index: 10; }
 #new-game-button { top: 20%; }
 .side-button-image { position: relative; left: -25px; width: 250px; height: 100%; cursor: url("Images/ClickCursor.png"), auto; }
-#game-name { position: absolute; left: 50%; top: 5%; transform: translate(-50%); width: 250px; color: white; }
+#game-name { position: absolute; left: 50%; top: 5%; transform: translate(-50%); width: 250px; color: white; pointer-events: none; user-select: none; }
 #side-menu { position: relative; width: 25%; height: 100%; background-color: transparent; }
+#side-panel-background { pointer-events: none; user-select: none; }
 #unity-webgl-logo { position: absolute; right: 2%; bottom: 2%; }
 #audio-button { top: 44%; }
 #tutorial-button { top: 36%; }
@@ -13,13 +14,13 @@ body { padding: 0; margin: 0; overflow: hidden; }
 #continue-game-button { top: 28%; }
 #loading-screen { position: absolute; width: 102%; height: 102%; background-color: black; z-index: 100; }
 #loading-text { position: absolute; left: 50%; top: 40%; transform: translate(-50%); color: white; font-size: 4rem; }
-#loading-image { width: 100%; height: 100%; }
+#loading-image { width: 100%; height: 100%; pointer-events: none; user-select: none; }
 #loading-credit { position: absolute; left: 85%; top: 80%; transform: translate(-50%); color: white; font-size: 4rem; }
-#loading-credit-image { width: 100%; height: 100%; }
+#loading-credit-image { width: 100%; height: 100%; pointer-events: none; user-select: none; }
 #question { position: absolute; left: 62%; top: 20%; transform: translate(-50%); width: 400px; height: 200px; z-index: -5; }
-#question-background { position: absolute; left: -10%; top: -10%; width: 120%; height: 120%; }
+#question-background { position: absolute; left: -10%; top: -10%; width: 120%; height: 120%; pointer-events: none; user-select: none; }
 #question-message { color: white; font-size: 1.7rem; text-align: justify; }
-#message-image{ position: relative; top: -25px; width: 100%; height: 150px; }
+#message-image{ position: relative; top: -25px; width: 100%; height: 150px; pointer-events: none; user-select: none; }
 #question-options { position: relative; bottom: 7%; }
 .question-button { position: relative; top: -35px; height: 35px; width: 35px; color: white; background-color: transparent; font-size: 0.25rem; transition: all 0.1s; border: none; border-radius: 0; cursor: url("Images/ClickCursor.png"), auto; }
 .question-image { position: relative; top: -13px; width: 50px; height: 50px; cursor: url("Images/ClickCursor.png"), auto; }
@@ -28,9 +29,9 @@ body { padding: 0; margin: 0; overflow: hidden; }
 #question-yes:hover { color: rgb(23, 197, 0); background-color: rgba(23, 197, 0, 0.01); border-left: 5px rgb(23, 197, 0) solid; border-radius: 3px; }
 #question-no:hover { color: rgb(255, 0, 0); background-color: rgba(255, 0, 0, 0.01); border-left: 5px rgb(255, 0, 0) solid; border-radius: 3px; }
 #difficulty { position: absolute; left: 62%; top: 20%; transform: translate(-50%); width: 400px; height: 200px; background-color: transparent; z-index: -5; }
-#difficulty-background { position: absolute; left: -15%; top: -25%; width: 130%; height: 130%; }
+#difficulty-background { position: absolute; left: -15%; top: -25%; width: 130%; height: 130%; pointer-events: none; user-select: none; }
 #difficulty-message { position: relative; top: -20px; color: white; font-size: 1.7rem; text-align: center; }
-#difficulty-message-image { position: relative; top: -25px; width: 100%; height: 50px; }
+#difficulty-message-image { position: relative; top: -25px; width: 100%; height: 50px; pointer-events: none; user-select: none; }
 #difficulty-options button { position: relative; left: 50%; top: -70px; transform: translate(-50%); height: 40px; color: white; background-color: transparent; display: block; border: none; border-radius: 0; }
 #difficulty-desc { position: relative; top: -35px; color: white; font-size: 0.8rem; text-align: left; transition: all 0.1s; }
 #difficulty-desc-image { width: 100%; height: 100%; }
@@ -42,8 +43,8 @@ body { padding: 0; margin: 0; overflow: hidden; }
 #nightmare-mode { cursor: url("Images/ClickCursor.png"), auto; }
 #nightmare-mode:hover { color: rgb(117, 2, 2); background-color: rgba(23, 197, 0, 0.01); border-left: 5px rgb(117, 2, 2) solid; border-radius: 4px; }
 #tutorial { position: absolute; left: 62%; top: 3.75%; transform: translate(-50%); width: 850px; height: 850px; background-color: transparent; z-index: -5; }
-#tutorial-background { position: absolute; width: 100%; height: 100%; }
-#tutorial-page { position: absolute; left: 10%; top: 10%; width: 80%; height: 80%; }
+#tutorial-background { position: absolute; width: 100%; height: 100%; pointer-events: none; user-select: none; }
+#tutorial-page { position: absolute; left: 10%; top: 10%; width: 80%; height: 80%; pointer-events: none; user-select: none; }
 .page-button { position: absolute; width: 50px; height: 50px; background-color: transparent; transition: all 0.1s; filter: invert(10%); border: none; }
 .page-button:hover { scale: 1.1; filter: none; }
 #left-page-button { left: 35%; top: 85%; }
