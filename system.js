@@ -140,7 +140,7 @@ function changeAudioButtonBorderColor(colorString) {
 function playAudio(audio) {
   if (!navigator.userActivation || !navigator.userActivation.isActive) { return; }
 
-  if (audioEnabled) { if (!audio.paused) { audio.currentTime = 0; } audio.play(); }
+  if (audioEnabled) { audio.currentTime = 0; audio.play(); }
 }
 function stopAudio(audio) {
   audio.pause();
@@ -476,6 +476,8 @@ script.onload = () => {
     else {
       window.SaveWebsiteData();
     }
+
+    setInterval(() => { if (menuBackgroundAudio.paused && audioEnabled && !document.fullscreenElement) { playAudio(menuBackgroundAudio) } }, 10000)
 
     /* Extra functions */
     function enableFullscreen() {
