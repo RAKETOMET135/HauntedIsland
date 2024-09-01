@@ -307,12 +307,12 @@ window.LoadGameLoader = (requestInfo) => {
   loadingScreen.style.zIndex = -10;
 
   const newGameOnLoadData = window.sessionStorage.getItem("newGame");
-    if (newGameOnLoadData){
-      if (newGameOnLoadData === "true"){
-        window.sessionStorage.removeItem("newGame");
-        enableQuestion();
-        disableTriggerButtons();
-      }
+  if (newGameOnLoadData){
+    if (newGameOnLoadData === "true"){
+      window.sessionStorage.removeItem("newGame");
+      enableQuestion();
+      disableTriggerButtons();
+    }
   }
 }
 window.SaveWebsiteData = () => {
@@ -438,7 +438,7 @@ function enableTriggerButtons() {
 }
 
 /* Console clearing */
-var debugMode = true;
+var debugMode = false;
 if (!debugMode) {
   console.log = (message) => {}
   console.warn = (message) => {}
@@ -460,16 +460,21 @@ script.onload = () => {
 
     /* Website setting data loading */
     var websiteDataObject = JSON.parse(window.localStorage.getItem("websiteData"));
-    if (websiteDataObject.audioAllowed) {
-      audioEnabled = true; audioButtonImage.src = "Images/DisableAudio.png";
-      changeAudioButtonBorderColor("rgb(23, 197, 0)");
-
-      unityInstance.SendMessage("ExternalSystems", "ChangeAudioAcces", 1);
-
-      var menuAudioInterval = setInterval(() => {
-        if (document.fullscreenElement) { clearInterval(menuAudioInterval); } 
-        if (navigator.userActivation && navigator.userActivation.isActive) { playAudio(menuBackgroundAudio); clearInterval(menuAudioInterval); } 
-      }, 1000);
+    if (websiteDataObject) {
+      if (websiteDataObject.audioAllowed) {
+        audioEnabled = true; audioButtonImage.src = "Images/DisableAudio.png";
+        changeAudioButtonBorderColor("rgb(23, 197, 0)");
+  
+        unityInstance.SendMessage("ExternalSystems", "ChangeAudioAcces", 1);
+  
+        var menuAudioInterval = setInterval(() => {
+          if (document.fullscreenElement) { clearInterval(menuAudioInterval); } 
+          if (navigator.userActivation && navigator.userActivation.isActive) { playAudio(menuBackgroundAudio); clearInterval(menuAudioInterval); } 
+        }, 1000);
+      }
+    }
+    else {
+      window.SaveWebsiteData();
     }
 
     /* Extra functions */
@@ -627,7 +632,7 @@ script.onload = () => {
     });
 
   }).catch((message) => {
-    alert(message);
+    //alert(message);
   });
 }
 document.body.appendChild(script);
