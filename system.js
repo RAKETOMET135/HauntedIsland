@@ -438,7 +438,7 @@ function enableTriggerButtons() {
 }
 
 /* Console clearing */
-var debugMode = false;
+var debugMode = true;
 if (!debugMode) {
   console.log = (message) => {}
   console.warn = (message) => {}
