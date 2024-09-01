@@ -1,0 +1,70 @@
+* { cursor: url("Images/DefualtCursor.png"), auto; }
+body { padding: 0; margin: 0; overflow: hidden; }
+#title-screen { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100vw; height: 102vh; background-color: black; background-image: url("Images/TitleImage.png"); background-size: 2000px; background-position: 100%; background-position-y: 40%; z-index: 10; }
+#new-game-button { top: 20%; }
+.side-button-image { position: relative; left: -25px; width: 250px; height: 100%; cursor: url("Images/ClickCursor.png"), auto; }
+#game-name { position: absolute; left: 50%; top: 5%; transform: translate(-50%); width: 250px; color: white; }
+#side-menu { position: relative; width: 25%; height: 100%; background-color: transparent; }
+#unity-webgl-logo { position: absolute; right: 2%; bottom: 2%; }
+#audio-button { top: 44%; }
+#tutorial-button { top: 36%; }
+.loader-button { position: absolute; left: 50%; transform: translate(-50%); width: 250px; height: 50px; color: white; background-color: transparent; background-blend-mode: color; font-size: 1.5rem; text-align: left; transition: all 0.1s; border-left: none; border-right: none; border-top: none; border-bottom: none; border-radius: 0px; border-color: white; cursor: url("Images/ClickCursor.png"), auto; }
+.loader-button:hover { background-color: rgba(255, 255, 255, 0.01); border-left: 5px white solid; border-radius: 5px; }
+#continue-game-button { top: 28%; }
+#loading-screen { position: absolute; width: 102%; height: 102%; background-color: black; z-index: 100; }
+#loading-text { position: absolute; left: 50%; top: 40%; transform: translate(-50%); color: white; font-size: 4rem; }
+#loading-image { width: 100%; height: 100%; }
+#loading-credit { position: absolute; left: 85%; top: 80%; transform: translate(-50%); color: white; font-size: 4rem; }
+#loading-credit-image { width: 100%; height: 100%; }
+#question { position: absolute; left: 62%; top: 20%; transform: translate(-50%); width: 400px; height: 200px; z-index: -5; }
+#question-background { position: absolute; left: -10%; top: -10%; width: 120%; height: 120%; }
+#question-message { color: white; font-size: 1.7rem; text-align: justify; }
+#message-image{ position: relative; top: -25px; width: 100%; height: 150px; }
+#question-options { position: relative; bottom: 7%; }
+.question-button { position: relative; top: -35px; height: 35px; width: 35px; color: white; background-color: transparent; font-size: 0.25rem; transition: all 0.1s; border: none; border-radius: 0; cursor: url("Images/ClickCursor.png"), auto; }
+.question-image { position: relative; top: -13px; width: 50px; height: 50px; cursor: url("Images/ClickCursor.png"), auto; }
+#question-yes { position: absolute; left: 6%; }
+#question-no { position: absolute; left: 22.5%; }
+#question-yes:hover { color: rgb(23, 197, 0); background-color: rgba(23, 197, 0, 0.01); border-left: 5px rgb(23, 197, 0) solid; border-radius: 3px; }
+#question-no:hover { color: rgb(255, 0, 0); background-color: rgba(255, 0, 0, 0.01); border-left: 5px rgb(255, 0, 0) solid; border-radius: 3px; }
+#difficulty { position: absolute; left: 62%; top: 20%; transform: translate(-50%); width: 400px; height: 200px; background-color: transparent; z-index: -5; }
+#difficulty-background { position: absolute; left: -15%; top: -25%; width: 130%; height: 130%; }
+#difficulty-message { position: relative; top: -20px; color: white; font-size: 1.7rem; text-align: center; }
+#difficulty-message-image { position: relative; top: -25px; width: 100%; height: 50px; }
+#difficulty-options button { position: relative; left: 50%; top: -70px; transform: translate(-50%); height: 40px; color: white; background-color: transparent; display: block; border: none; border-radius: 0; }
+#difficulty-desc { position: relative; top: -35px; color: white; font-size: 0.8rem; text-align: left; transition: all 0.1s; }
+#difficulty-desc-image { width: 100%; height: 100%; }
+.difficulty-button-image { position: relative; top: -5px; width: 250px; height: 50px; cursor: url("Images/ClickCursor.png"), auto; }
+#sandbox-mode { cursor: url("Images/ClickCursor.png"), auto; }
+#sandbox-mode:hover { color: rgb(23, 197, 0); background-color: rgba(23, 197, 0, 0.01); border-left: 5px rgb(23, 197, 0) solid; border-radius: 4px; }
+#normal-mode { cursor: url("Images/ClickCursor.png"), auto; }
+#normal-mode:hover { color: rgb(197, 79, 0); background-color: rgba(23, 197, 0, 0.01); border-left: 5px rgb(197, 79, 0) solid; border-radius: 4px; }
+#nightmare-mode { cursor: url("Images/ClickCursor.png"), auto; }
+#nightmare-mode:hover { color: rgb(117, 2, 2); background-color: rgba(23, 197, 0, 0.01); border-left: 5px rgb(117, 2, 2) solid; border-radius: 4px; }
+#tutorial { position: absolute; left: 62%; top: 3.75%; transform: translate(-50%); width: 850px; height: 850px; background-color: transparent; z-index: -5; }
+#tutorial-background { position: absolute; width: 100%; height: 100%; }
+#tutorial-page { position: absolute; left: 10%; top: 10%; width: 80%; height: 80%; }
+.page-button { position: absolute; width: 50px; height: 50px; background-color: transparent; transition: all 0.1s; filter: invert(10%); border: none; }
+.page-button:hover { scale: 1.1; filter: none; }
+#left-page-button { left: 35%; top: 85%; }
+#left-page-image { width: 50px; height: 50px; }
+#right-page-button { left: 55%; top: 85%; }
+#right-page-image { width: 50px; height: 50px; }
+#tutorial-cancel { position: absolute; right: 10%; top: 10%; width: 75px; height: 75px; background-color: transparent; transition: all 0.1s; filter: invert(10%); border: none; }
+#tutorial-cancel:hover { scale: 1.1; filter: none; }
+#tutorial-cancel-image { width: 75px; height: 75px; }
+#unity-container { position: absolute; }
+#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%); }
+#unity-container.unity-mobile { width: 100%; height: 100%;}
+#unity-canvas { background: #231F20; }
+.unity-mobile #unity-canvas { width: 100%; height: 100%; }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none; }
+#unity-logo { width: 154px; height: 130px; background: url("Images/unity-logo-dark.png") no-repeat center; }
+#unity-progress-bar-empty { margin-top: 10px; width: 141px; height: 18px; background: url("Images/progress-bar-empty-dark.png") no-repeat center; }
+#unity-progress-bar-full { margin-top: 10px; width: 0%; height: 18px; background: url("Images/progress-bar-full-dark.png") no-repeat center; }
+#unity-footer { position: relative; }
+.unity-mobile #unity-footer { display: none; }
+#unity-webgl-logo { float: left; width: 204px; height: 38px; background: url("Images/webgl-logo.png") no-repeat center ; cursor: url("Images/DefualtCursor.png"), auto; user-select: none; }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px ; }
+#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url("Images/fullscreen-button.png") no-repeat center; }
+#unity-warning {  padding: 10px;  position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; display: none;}

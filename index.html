@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Haunted Island</title>
+  <link rel="shortcut icon" type="x-icon" href="Images/WebsiteLogo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loading-screen">
+    <h1 id="loading-text">
+      <img id="loading-image" src="Images/Loading.png" alt="">
+    </h1>
+    <h1 id="loading-credit">
+      <img id="loading-credit-image" src="Images/Credit.png" alt="">
+    </h1>
+  </div>
+  <div id="question">
+    <img id="question-background" src="Images/WarningBackground.png" alt="">
+    <p id="question-message">
+      <img id="message-image" src="Images/WarningText.png" alt="">
+    </p>
+    <div id="question-options">
+      <button id="question-yes" class="question-button">
+        <img class="question-image" id="question-image-yes" src="Images/Yes.png" alt="">
+      </button>
+      <button id="question-no" class="question-button">
+        <img class="question-image" id="question-image-no" src="Images/No.png" alt="">
+      </button>
+    </div>
+  </div>
+  <div id="difficulty">
+    <img id="difficulty-background" src="Images/WarningBackground.png" alt="">
+    <p id="difficulty-message">
+      <img id="difficulty-message-image" src="Images/DifficultyTitle.png" alt="">
+    </p>
+    <div id="difficulty-options">
+      <button id="sandbox-mode">
+        <img class="difficulty-button-image" id="sandbox-image" src="Images/Sandbox.png" alt="">
+      </button>
+      <button id="normal-mode">
+        <img class="difficulty-button-image" id="normal-image" src="Images/Normal.png" alt="">
+      </button>
+      <button id="nightmare-mode">
+        <img class="difficulty-button-image" id="nightmare-image" src="Images/Nightmare.png" alt="">
+      </button>
+    </div>
+    <p id="difficulty-desc">
+      <img id="difficulty-desc-image" src="Images/GigaPixel.png" alt="">
+    </p>
+  </div>
+  <div id="tutorial">
+    <img id="tutorial-background" src="Images/WarningBackground.png" alt="">
+    <img id="tutorial-page" src="Images/TutorialPage1.png" alt="">
+    <button class="page-button" id="left-page-button">
+      <img id="left-page-image" src="Images/LeftArrow.png" alt="">
+    </button>
+    <button class="page-button" id="right-page-button">
+      <img id="right-page-image" src="Images/RightArrow.png" alt="">
+    </button>
+    <button id="tutorial-cancel">
+      <img id="tutorial-cancel-image" src="Images/Cancel.png" alt="">
+    </button>
+  </div>
+  <div id="title-screen">
+    <div id="side-menu">
+      <img id="game-name" src="Images/GameTitle.png" alt="">
+      <button id="new-game-button" class="loader-button">
+        <img class="side-button-image" id="new-game-image" src="Images/NewGame.png" alt="">
+      </button>
+      <button id="continue-game-button" class="loader-button">
+        <img class="side-button-image" id="continue-image" src="Images/Continue.png" alt="">
+      </button>
+      <button id="tutorial-button" class="loader-button">
+        <img class="side-button-image" id="tutorial-image" src="Images/Tutorial.png" alt="">
+      </button>
+      <button id="audio-button" class="loader-button">
+        <img class="side-button-image" id="audio-image" src="Images/EnableAudio.png" alt="">
+      </button>
+      <img src="Images/SideBarBackground.png" alt="">
+    </div>
+    <div id="unity-webgl-logo"></div>
+  </div>
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas" width=960 height=600></canvas>
+    <div id="unity-loading-bar">
+      <div id="unity-logo"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+    <div id="unity-warning"> </div>
+    <div id="unity-footer">
+      <div id="unity-fullscreen-button"></div>
+      <div id="unity-build-title">Haunted Island</div>
+    </div>
+  </div>
+  <script src="system.js"></script>
+</body>
+
+</html>
