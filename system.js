@@ -627,7 +627,7 @@ script.onload = () => {
     });
 
   }).catch((message) => {
-    //alert(message);
+    alert(message);
   });
 }
 document.body.appendChild(script);
