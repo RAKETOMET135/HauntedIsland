@@ -5,4 +5,5 @@
 - HTML file
 - CSS file
 - JavaScript file
+
 **Images used on web are in Images folder. I have moved images from TemplateData to Images for better acces in files**
