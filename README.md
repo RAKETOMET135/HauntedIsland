@@ -37,3 +37,20 @@
 **I have made most of the images myself.**
 
 **Most of the project is programmed in C#.**
+
+### Saving and loading system
+
+**Games progress is saved to local storage of the used browser. Data are saved in unity instance and they are send to unity plugin (.jslib file) that decodes them and calls window methods that turn the data into objects and they serializered**
+**and saved to local storage.**
+
+**Game progress is loaded by getting saved data from local storage then deserialiazing them into objects that can be sent using "unityInstance.SendMessage()" to unity instance where they are loaded.**
+
+
+
+
+
+
+
+
+
+
