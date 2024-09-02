@@ -98,7 +98,7 @@ normalButton.addEventListener("mouseover", () => { hoverNormal(true); });
 normalButton.addEventListener("mouseout", () => { hoverNormal(false); });
 
 function hoverNightmare(state){
-  if (state) { nightmareButtonImage.src = "Images/NightmareSelect.png"; diffInfoImage.src = "Images/NightmareInfo.png"; difficultyBackground.style.height = "310%"; } 
+  if (state) { nightmareButtonImage.src = "Images/NightmareSelect.png"; diffInfoImage.src = "Images/NightmareInfo.png"; difficultyBackground.style.height = "337%"; } 
   else { nightmareButtonImage.src = "Images/Nightmare.png"; diffInfoImage.src = "Images/GigaPixel.png"; difficultyBackground.style.height = "130%"; }
 }
 nightmareButton.addEventListener("mouseover", () => { hoverNightmare(true); });
