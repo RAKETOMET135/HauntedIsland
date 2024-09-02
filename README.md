@@ -65,7 +65,7 @@
 
 ### Thanks for reading
 
-**Will anyone even read this? I hope you enjoy the game and I have tried to minimalize the bugs that can appear.**
+**Will anyone even read this? I hope you enjoy the game and I have tried to minimalize the bugs that can appear. This game took me about a month to make.**
 
 
 
