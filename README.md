@@ -21,6 +21,7 @@
 
 **There are 3 difficulties that they can chose from: Sanbox, Normal and Nightmare. Nightmare is designed to test the true survival instincts of players. All things are made to be more diffcult.**
 
+**Playera can spend even an hour trying to escape the haunted island. For that they can use automatical saving into the brower's local storage to continue from same computer and browers again after they feel to play this game again.**
 
 **If you are still not interested in playing the game you can try to do other things on the island. You can ride horses, use bow and arrows and more.**
 
@@ -33,4 +34,6 @@
 - JavaScript file
 
 **Images used on web are in Images folder. I have moved images from TemplateData to Images for better acces in files.**
-**I have made most of the images myself**
+**I have made most of the images myself.**
+
+**Most of the project is programmed in C#.**
