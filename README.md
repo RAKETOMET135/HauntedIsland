@@ -19,7 +19,7 @@
 
 **Players can experience rain or just use it for watering seeds. The choice is theirs.**
 
-**There are 3 difficulties that they can chose from: Sanbox, Normal and Nightmare. Nightmare is designed to test the true survival instincts of players. All things are made to be more diffcult.**
+**There are 3 difficulties that they can chose from: Sandbox, Normal and Nightmare. Nightmare is designed to test the true survival instincts of players. All things are made to be more diffcult.**
 
 **Playera can spend even an hour trying to escape the haunted island. For that they can use automatical saving into the brower's local storage to continue from same computer and browers again after they feel to play this game again.**
 
