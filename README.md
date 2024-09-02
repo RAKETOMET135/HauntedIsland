@@ -17,7 +17,7 @@
 
 **Visiting a village can greatly improve the survival chances. Trade with local villagers to obtain special items or just sell wood and other stuff for gold.**
 
-**Players can expirience rain or just use it for watering seeds. The choice is theirs.**
+**Players can experience rain or just use it for watering seeds. The choice is theirs.**
 
 **There are 3 difficulties that they can chose from: Sanbox, Normal and Nightmare. Nightmare is designed to test the true survival instincts of players. All things are made to be more diffcult.**
 
