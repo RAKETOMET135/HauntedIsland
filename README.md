@@ -59,9 +59,9 @@
 7. Add items on ground
 8. Spawn animals
 
-### Costume font
+### Custom font
 
-**This game uses costume font for items in game (does not apply for website). This font is handmade by me.**
+**This game uses custome font for items in game (does not apply for website). This font is handmade by me.**
 
 ### Thanks for reading
 
