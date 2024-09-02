@@ -6,6 +6,7 @@
 **There is a crafting system where players can craft various items. For example they can craft axes, spears, shovels, pickaxes, torches and much more. In total there is 100+ items players can obtain.**
 **Cutting trees, bushes, rocks is crucial to progress through the game.**
 **To make make survival like it should be, I added hunger and thirst. It is important to consider these when attempting this amazing survival on this haunted island.**
+**Players can try other activities like fishing, digging dirt or even using a drill.**
 
 
 
