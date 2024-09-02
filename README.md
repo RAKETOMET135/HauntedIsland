@@ -4,7 +4,9 @@
 
 **This game is about surviving on randomly generated island, where every night monsters appear. Player's goal is to not only survive, but to also build a whole ship and sail away from the island.**
 **There is a crafting system where players can craft various items. For example they can craft axes, spears, shovels, pickaxes, torches and much more. In total there is 100+ items players can obtain.**
-**
+**Cutting trees, bushes, rocks is crucial to progress through the game.**
+**To make make survival like it should be, I added hunger and thirst. It is important to consider these when attempting this amazing survival on this haunted island.**
+
 
 
 ## Project informations
