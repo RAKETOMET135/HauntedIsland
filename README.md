@@ -40,11 +40,24 @@
 
 ### Saving and loading system
 
-**Games progress is saved to local storage of the used browser. Data are saved in unity instance and they are send to unity plugin (.jslib file) that decodes them and calls window methods that turn the data into objects and they serializered**
+**Game progress is saved to local storage of the used browser. Data are saved in unity instance and they are send to unity plugin (.jslib file) that decodes them and calls window methods that turn the data into objects and they serializered**
 **and saved to local storage.**
 
 **Game progress is loaded by getting saved data from local storage then deserialiazing them into objects that can be sent using "unityInstance.SendMessage()" to unity instance where they are loaded.**
 
+**Saving tactics: save just the information needed to be able to load the stuf back (example: tree with health will be saved by saving its health, maxhealth, position and the name of image used for it)
+
+### World generation
+
+**The island is genereted in these steps:
+1. Create a grass square
+2. Add lakes
+3. Add biome grounds
+4. Add forests
+5. Add trees, bushes and rocks
+6. Add villages
+7. Add items on ground
+8. Spawn animals
 
 
 
