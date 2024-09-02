@@ -11,7 +11,7 @@
 **Survival can be difficult, but wild life on the island can help them with their journey. Meat chickens and collect eggs, get milk from cows and much more.**
 **To make things suited even for true gamers, I added bossfight to the game. Fight Zirb the only true owner of the haunted island to be able to power your ship. Be ready for Zirb's deadly speed in his majestic flying.**
 **Visiting a village can greatly improve the survival chances. Trade with local villagers to obtain special items or just sell wood and other stuff for gold.**
-
+**Players can expirience rain or just use it for watering seeds. The choice is theirs.**
 
 
 ## Project informations
