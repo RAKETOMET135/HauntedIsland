@@ -45,7 +45,7 @@
 
 **Game progress is loaded by getting saved data from local storage then deserialiazing them into objects that can be sent using "unityInstance.SendMessage()" to unity instance where they are loaded.**
 
-**Saving tactics: save just the information needed to be able to load the stuf back (example: tree with health will be saved by saving its health, maxhealth, position and the name of image used for it)**
+**Saving tactics: save just the information needed to be able to load the stuff back (example: tree with health will be saved by saving its health, maxhealth, position and the name of image used for it)**
 
 ### World generation
 
