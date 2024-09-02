@@ -9,7 +9,8 @@
 **Players can try other activities like fishing, digging dirt or even using a drill.**
 **Planting seeds can be one of the ways to get food. These seeds can be watered to lower the growth time.**
 **Survival can be difficult, but wild life on the island can help you with your journey. Meat chickens and collect eggs, get milk from cows and much more.**
-**
+**To make things suited even for true gamers, I added bossfight to the game. Fight Zirb the only true owner of the haunted island to be able to power your ship. Be ready for Zirb's deadly speed in his majestic flying.**
+
 
 
 
