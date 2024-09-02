@@ -8,6 +8,8 @@
 **To make make survival like it should be, I added hunger and thirst. It is important to consider these when attempting this amazing survival on this haunted island.**
 **Players can try other activities like fishing, digging dirt or even using a drill.**
 **Planting seeds can be one of the ways to get food. These seeds can be watered to lower the growth time.**
+**Survival can be difficult, but wild life on the island can help you with your journey. Meat chickens and collect eggs, get milk from cows and much more.**
+**
 
 
 
