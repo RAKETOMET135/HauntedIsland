@@ -22,6 +22,8 @@
 **There are 3 difficulties that they can chose from: Sanbox, Normal and Nightmare. Nightmare is designed to test the true survival instincts of players. All things are made to be more diffcult.**
 
 
+**If you are still not interested in playing the game you can try to do other things on the island. You can ride horses, use bow and arrows and more.**
+
 ## Project informations
 
 **I have made this project in Unity using WebGL.**
