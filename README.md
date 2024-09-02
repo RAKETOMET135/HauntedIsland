@@ -49,7 +49,7 @@
 
 ### World generation
 
-**The island is genereted in these steps:
+**The island is genereted in these steps:**
 1. Create a grass square
 2. Add lakes
 3. Add biome grounds
@@ -59,7 +59,13 @@
 7. Add items on ground
 8. Spawn animals
 
+### Costume font
 
+**This game uses costume font for items in game (does not apply for website). This font is handmade by me.**
+
+### Thanks for reading
+
+**Will anyone even read this? I hope you enjoy the game and I have tried to minimalize the bugs that can appear.**
 
 
 
