@@ -5,7 +5,7 @@ body { padding: 0; margin: 0; overflow: hidden; }
 .side-button-image { position: relative; left: -25px; width: 250px; height: 100%; cursor: url("Images/ClickCursor.png"), auto; }
 #game-name { position: absolute; left: 50%; top: 5%; transform: translate(-50%); width: 250px; color: white; pointer-events: none; user-select: none; }
 #side-menu { position: relative; width: 25%; height: 100%; background-color: transparent; }
-#side-panel-background { pointer-events: none; user-select: none; }
+#side-panel-background { height: 100%; pointer-events: none; user-select: none; }
 #unity-webgl-logo { position: absolute; right: 2%; bottom: 2%; }
 #audio-button { top: 44%; }
 #tutorial-button { top: 36%; }
